@@ -5,7 +5,7 @@ const pokemonEl = document.getElementsByClassName('.pokemon')
 const pokemonDetailsEl = document.getElementById('pokemon-details')
 
 let offset = 0
-const limit = 12
+const limit = 15
 
 function convertPokemonToHtml(pokemon) {
     return `
