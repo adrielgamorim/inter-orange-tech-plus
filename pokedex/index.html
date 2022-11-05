@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Pokedex</title>
+    <meta name="Simple Pokedex" content="By Adriel Amorim">
+    <title>Simple Pokedex</title>
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b4aa049435.js" crossorigin="anonymous"></script>
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    
 </head>
 <body>
-    <h1 class="h1">Pokedex</h1>
+    
+    <section class="content">
+        <h1>Simple Pokedex</h1>
+        <div class="pagination">
+            <button id="previous-page">Previous page</button>
+            <button id="next-page">Next page</button>
+        </div>
 
-    <script src="./assets/script.js"></script>
+        <div id="pokemon-details"></div>
+
+        <ol id="pokemon-list" class="pokemon__list">
+            <h1>Loading...</h1>
+        </ol>
+
+        <div class="social__media">
+            <a href="https://github.com/adrielgamorim/" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+            <a href="https://linkedin.com/in/adrielamorim/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <script src="./assets/js/pokeEntity.js"></script>
+    <script src="./assets/js/pokeApi.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
