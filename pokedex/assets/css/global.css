@@ -4,7 +4,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f6f8fcbe;
+    /* background-color: #f6f8fcbe; */
+    background-color: #000;
 }
 
 .normal {
@@ -83,12 +84,12 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #000;
     text-align: center;
 }
 
 .content h1 {
-    color: #f20;
+    color: #bbb;
     font-size: 3rem;
 }
 
@@ -219,7 +220,7 @@ body {
 .pagination button {
     padding: .25rem .5rem;
     color: #fff;
-    background-color: #f20;
+    background-color: #bbb;
     font-size: 1.2rem;
     border: none;
     border-radius: 1rem;
@@ -365,7 +366,7 @@ body {
 .social__media a {
     padding: .5rem .75rem;
     color: #fff;
-    background-color: #f20;
+    background-color: #bbb;
     border-radius: 1.5rem;
     text-decoration: none;
 }
